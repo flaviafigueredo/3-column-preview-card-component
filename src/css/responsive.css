@@ -1,0 +1,20 @@
+@media(max-width: 835px) {
+    main {
+        height: fit-content;
+    }
+
+    .container {
+        flex-direction: column;
+        margin: 50px;
+    }
+
+    .container .cartao-1 {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 6px;
+    }
+
+    .container .cartao-3 {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 6px;
+    }
+}
